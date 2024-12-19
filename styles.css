@@ -70,6 +70,10 @@ body {
   color: white;
 }
 
+.copyright-text{
+  font-size: 12px;
+}
+
 
 .content {
   display: flex;
