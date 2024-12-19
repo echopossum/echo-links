@@ -1,7 +1,81 @@
 :root {
   --Black: #2f2827;
+  --Darker-Black: #151515;
 }
 
 body {
   background-color: var(--Black);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-image,
+.header-icon {
+  border: 0px solid transparent;
+  border-radius: 150px;
+}
+
+.header-icon {
+  width: 40px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.profile-image {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.link-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  width: 300px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.header-bar,
+.footer-bar {
+  background-color: var(--Darker-Black);
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-bar {
+  justify-content: space-between;
+}
+
+.copyright-text {
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
+}
+
+.button {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
