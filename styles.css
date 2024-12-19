@@ -39,7 +39,7 @@ body {
   width: 300px;
   margin-bottom: 50px;
   margin-top: 50px;
-  gap: 10px;
+  gap: 20px;
 }
 
 .project-buttons{
@@ -80,7 +80,7 @@ h1 {
 
 .button {
   width: 100%;
-  height: 50px;
+  height: 60px;
   background-color: var(--Darker-Black);
   display: flex;
   justify-content: center;
