@@ -150,3 +150,16 @@ a{
   background-color: var(--Onlyfans-Blue);
 }
 
+.sketch-button{
+  background-color: red;
+  color: goldenrod;
+  justify-content: space-around;
+}
+
+.knob{
+  width: 30px;
+  height: 30px;
+  border: solid 1px black;
+  border-radius: 30px;
+  background-color: white;
+}
